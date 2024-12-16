@@ -1,0 +1,5 @@
+Update Bonse Code Base On A Year
+
+UPDATE employees
+SET bones = bones + 1
+WHERE bones_date = DATEADD(year, -1, GETDATE());
